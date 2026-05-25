@@ -1,0 +1,132 @@
+body{
+    background: black;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin: auto;
+    scroll-behavior:smooth;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    margin: 10px;
+    text-shadow: 0 0 10px rgba(76, 71, 71, 0.758);
+    cursor: no-drop;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:1px;
+    border-radius: 50px;
+    height: 50px;
+    margin: 50px;
+    background: rgba(91, 85, 85, 0.803);
+}
+ul{
+    list-style: none;
+    color: rgba(240, 248, 255, 0.834);
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    
+     
+}
+li{
+    margin: 7px;
+}
+.Biku{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+    
+    
+    
+}
+
+
+img{
+    width: 150px;
+    border-radius: 50% ;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1) ;
+    
+    
+}
+
+
+li{
+    transition: .1s;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+    transform: translateY( -2px);
+    
+    
+
+}
+.words{
+
+color: rgba(240, 248, 255, 0.837);
+transition: .9s;
+}
+.words:hover{
+    color: rgb(255, 255, 255);
+}
+.about{
+    margin: 50px;
+    gap: 10px;  
+    text-align:inherit;
+    color: rgba(240, 248, 255, 0.778); 
+    margin: 100px;
+}
+h2{
+        text-align: center;
+        color: aliceblue;
+    }
+
+.line{
+    background: rgb(255, 255, 255);
+    padding: 1px;
+    height: 1px;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 1px;
+    transition: 2s;
+}
+.line:hover{
+    animation: infinite;
+    
+   
+}
+
+@media only screen and (min-width:600px){
+body{
+    margin: 0px;
+    }
+
+}
+@media only screen and (max-width:600px){
+    nav{
+        width: 100px;
+        gap: 200px;
+    }
+    ul{
+     display: block;
+     gap: 10px;
+    }
+    .about{
+        text-align:justify;
+        margin: 10px;
+        padding: 10px;
+    }
+    .Biku{
+        align-items: center;
+        text-align: center;
+    }
+}
