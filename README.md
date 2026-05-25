@@ -2,6 +2,6 @@
 
 MADE WITH : html , CSS
 
-<center><a href="https://bikuu-web.netlify.app">
+<center><a href="https://bikuu-web.netlify.app" target="_blank">
 <button> Click Me for Demo </button>
 </a></center>
