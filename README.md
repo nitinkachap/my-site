@@ -2,4 +2,4 @@
 
 MADE WITH : html , CSS
 
-<h2> live demo - https://bikuu-web.netlify.app/ </h2>
+<p> live demo - https://bikuu-web.netlify.app/ <p>
